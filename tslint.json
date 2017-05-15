@@ -1,0 +1,39 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {
+        "indent": [
+            4,
+            "error"
+        ],
+        "quotemark": [
+            "double",
+            "jsx-double"
+        ]
+    },
+    "rules": {
+        "curly": false,
+        "interface-name": [
+            true,
+            "never-prefix"
+        ],
+        "member-access": false,
+        "member-ordering": [
+            false
+        ],
+        "no-console": [
+            false
+        ],
+        "no-unused-expression": false,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "never",
+                "singleline": "never"
+            }
+        ]
+    },
+    "rulesDirectory": []
+}

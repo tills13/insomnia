@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "allowJs": true,
+        "jsx": "react",
+        "removeComments": true,
+        "forceConsistentCasingInFileNames": true,
+        "pretty": true,
+        "noImplicitAny": false,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "allowUnreachableCode": true,
+        "allowUnusedLabels": false,
+        "isolatedModules": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true
+    },
+    "include": [
+        "./app/**/*"
+    ],
+    "awesomeTypescriptLoaderOptions": {
+        "compiler": "./node_modules/typescript"
+    }
+}
